@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	r "github.com/dancannon/gorethink"
+	r "gopkg.in/rethinkdb/rethinkdb-go.v6"
 )
 
 func main() {
